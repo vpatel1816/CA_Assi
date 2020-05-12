@@ -7,7 +7,10 @@ Created on Tue May 12 00:02:34 2020
 """
 """
 
-1
+1,2
+
+
+
 
 b=[]
 b.append(-1) 
