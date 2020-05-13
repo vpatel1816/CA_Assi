@@ -46,18 +46,7 @@ q1.formula()
 
 
 
-class shape():
-    def area(self):
-        print("In the class Shape where Area is default: 0")
-class square():
-    def __init__(self,length):
-        self.length=length
-        area=int(length)*2
-        print("Init method of square where are is: ", area)
-length=(input("Enter the Length: "))
-o=shape()
-o.area()
-o1=square(length)
+
 
 
 """
