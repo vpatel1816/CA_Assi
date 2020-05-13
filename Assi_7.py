@@ -94,7 +94,7 @@ o=elementt(li)
 print(o.logic())
 
 
-
+"""
 
 
 
