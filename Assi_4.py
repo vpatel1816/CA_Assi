@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue May 12 15:36:19 2020
-
 @author: vish
 """
 
@@ -126,5 +125,4 @@ def showNumbers(limit):
             print(i, " is odd")
 limit= input("please insert the limit value") 
 showNumbers(limit)
-
 """
