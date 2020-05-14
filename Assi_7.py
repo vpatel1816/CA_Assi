@@ -105,6 +105,56 @@ print(o.logic())
 """
 
 
+4 OUTPUT
+
+prg 2: 
+    
+output:
+    
+1,2
+
+after calling the function we make an obejct for class der which is base awith super class A, 
+in fucntion we make an object so init method is called where value of y is retured as 2, but with super().init() 
+we call the init of parent class well.
+so x is also returned as 1
+we print x and y
+so out oput is 1,2
+
+
+
+prg 3:
+    
+output:
+
+3,1
+ 
+- function called object for B is created so init is called which return y=0 first and then init of super is also called with value 3 .
+  which will return x=3.
+- then method count is called which will make the vlue of y as 1, becasue of incremental with 1
+- printing x and y, so answer will be 3 anad ,latest returned valued of x and y
+
+
+prg 4:
+    
+OUTPUT
+
+30
+
+-object of B created so init will run of class B
+-in init super init is called and from super init will call the function multiply, 
+it wont execute the function of its own, because its parent class, 
+which can not perform any of its own method, 
+so it will go to the method of B calculate the sum and print i wwhich will be 30.
+
+with init method of a child class, if the init is being called, 
+then other method from parent clas can not be excuted.
+
+
+
+"""
+"""
+
+
 #5.	Create a Time class and initialize it with hours and minutes.
 #Make a method addTime which should take two time object and add them. E.g.- (2 hour and 50 min)+(1 hr and 20 min) is (4 hr and 10 min)
 #Make a method displayTime which should print the time.
