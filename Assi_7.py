@@ -32,9 +32,12 @@ class calculationn():
         print("Squareroot of is: ", Q)
         
         
-D=int(input("Enter the Value of D: "))
-q1 = calculationn(D)
-q1.formula()
+items = input("Input comma separated sequence of words")
+li = [i for i in items.split(",")]
+for E in li:
+    D=int(E)
+    q1=calculationn(D)
+    q1.formula()
 
 """
 """
@@ -48,16 +51,20 @@ q1.formula()
 
 class shape():
     def area(self):
-        print("In the class Shape where Area is default: 0")
-class square():
+        print("area of shape is set to 0")
+    
+class square(shape):
     def __init__(self,length):
         self.length=length
-        area=int(length)*2
-        print("Init method of square where are is: ", area)
-length=(input("Enter the Length: "))
-o=shape()
-o.area()
+        
+    def area(self):
+        self.length*=2
+        super().area()
+        print("Area of square is", self.length)
+        
+length=int(input("Enter the Length: "))
 o1=square(length)
+o1.area()
 
 
 """
