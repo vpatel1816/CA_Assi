@@ -107,6 +107,15 @@ print(o.logic())
 
 4 OUTPUT
 
+
+Prg 1
+
+put super().__init__() in the init method of second class to get called the init of parent class.
+so got the desired out put as
+ 0 1 
+
+
+
 prg 2: 
     
 output:
